@@ -24,7 +24,8 @@ cloudinaryConfig();
  app.use(cors({
    origin: ['https://harpiadamas.com.tr', 'http://localhost:3000'],
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
-   credentials: true
+   credentials: true,
+   allowedHeaders: ['Content-Type', 'Authorization']
  }));
 //localhost:
 //app.use(cors({
