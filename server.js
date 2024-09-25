@@ -21,16 +21,16 @@ cloudinaryConfig();
 
 
 //online
-// app.use(cors({
-//   origin: 'https://harpiadamas.com.tr',
-//   methods: ['GET', 'POST', 'PUT', 'DELETE'],
-//   credentials: true
-// }));
+ app.use(cors({
+   origin: 'https://harpiadamas.com.tr',
+  methods: ['GET', 'POST', 'PUT', 'DELETE'],
+   credentials: true
+ }));
 //localhost:
-app.use(cors({
-  origin: 'http://localhost:3000', // React uygulamanızın çalıştığı adres
-  credentials: true
-}));
+//app.use(cors({
+//  origin: 'http://localhost:3000', // React uygulamanızın çalıştığı adres
+//  credentials: true
+//}));
 
 app.use(cors());
 
