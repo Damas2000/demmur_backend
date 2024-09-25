@@ -1,5 +1,6 @@
-const Favorite = require('../models/Favorites'); // Favori modelini import edin
-const Product = require('../models/Product'); // Ürün modelini import edin
+const Favorite = require('../models/favorites');
+const Product = require('../models/Product');
+
 
 // Favori durumu kontrol etme
 exports.checkIfFavorite = async (req, res) => {

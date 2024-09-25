@@ -1,7 +1,7 @@
 // userController.js
 const User = require('../models/User');
 const Order = require('../models/Order');
-const Favorite = require('../models/Favorites');
+const Favorite = require('../models/favorites');
 
 exports.getUserProfile = async (req, res) => {
     try {
