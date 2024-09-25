@@ -81,7 +81,7 @@ app.listen(PORT, () => console.log(`Server started on port ${PORT}`));
 app.use((req, res, next) => {
   res.setHeader(
     'Content-Security-Policy',
-    "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; connect-src 'self' https://infinite-lowlands-79558-2a3b036b6b9a.herokuapp.com;"
+    "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; connect-src 'self' https://infinite-lowlands-79558-2a3b036b6b9a.herokuapp.com; font-src 'self' data:;"
   );
   next();
 });
