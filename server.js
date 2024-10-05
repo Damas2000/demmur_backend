@@ -77,7 +77,7 @@ app.use('/api/search', searchRoutes);
 // Sunucuyu başlatma
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => console.log(`Server started on port ${PORT}`));
-
+/*
 app.use((req, res, next) => {
   res.setHeader(
     'Content-Security-Policy',
@@ -85,3 +85,4 @@ app.use((req, res, next) => {
   );
   next();
 });
+*/
