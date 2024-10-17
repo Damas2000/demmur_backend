@@ -22,7 +22,7 @@ cloudinaryConfig();
 
 //online
  app.use(cors({
-   origin: ['https://harpiadamas.com.tr', 'http://localhost:3000'],
+   origin: ['https://www.demmurshoes.com', 'http://localhost:3000'],
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
    credentials: true,
    allowedHeaders: ['Content-Type', 'Authorization']
